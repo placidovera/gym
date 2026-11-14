@@ -35,8 +35,7 @@ const Future = () => {
         <nav>
           <a href="#future-beneficios">Características</a>
           <a href="#future-usuarios">Usuarios</a>
-          <a href="#future-admin">Clientes</a>
-          <a href="#future-contacto" className="future-nav-btn">
+          <a href="#future-contacto">
             Contactanos ↗
           </a>
         </nav>
@@ -117,27 +116,29 @@ const Future = () => {
           Senti la <span>Diferencia.</span>
         </h2>
         <p>
-          <p>
+        
   Rutinas adaptadas a tus objetivos, seguimiento de tu progreso
   y asesoramiento profesional para ayudarte a alcanzar tu mejor
   versión. Contamos con equipamiento de alto nivel y un ambiente
   ideal para que entrenes a tu ritmo y disfrutes cada entrenamiento.
 </p>
-        </p>
-
+       
         <div className="future-gallery">
-          <img
-            src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80"
-            alt="Máquinas de gimnasio"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80"
-            alt="Instalaciones"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=600&q=80"
-            alt="Entrenamiento"
-          />
+               <img
+        className=""
+        src="/salonabajo.jpg"
+        alt="Genesis"
+      />
+              <img
+        className=""
+        src="/manc.jpg"
+        alt="Genesis"
+      />
+             <img
+        className=""
+        src="/tele.jpg"
+        alt="Genesis"
+      />
         </div>
       </section>
 
@@ -227,12 +228,12 @@ const Future = () => {
           creada para vos y tus clientes.
         </p>
 
-        <a
-          href="https://wa.me/"
-          target="_blank"
-          rel="noreferrer"
-          className="future-button future-button-fill"
-        >
+      <a
+  href="https://wa.me/543434765329"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="future-button future-button-fill"
+>
           Contactanos por WhatsApp
         </a>
 

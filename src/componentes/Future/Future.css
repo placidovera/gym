@@ -41,6 +41,7 @@
 .future a {
   color: inherit;
   text-decoration: none;
+  
 }
 
 .future img {
@@ -75,7 +76,8 @@
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 20px 7%;
+  padding: 20px;
+  
 }
 
 .future-logo {
@@ -532,7 +534,7 @@
   }
 
   .future-nav nav a {
-    font-size: 0.68rem;
+    font-size: 0.95rem;
   }
 
   .future-hero {
@@ -619,6 +621,10 @@
   .future-footer {
     padding: 65px 6% 25px;
   }
+.future-logo {
+  display: block;
+  margin: 0 auto;
+}
 }
 
 @media (max-width: 400px) {
