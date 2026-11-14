@@ -78,7 +78,6 @@ const Future = () => {
 
       <section className="future-intro">
         <div>
-          <small>SOBRE NOSOTROS</small>
           <h2>
             El futuro es <span>ahora.</span>
           </h2>
@@ -101,17 +100,12 @@ const Future = () => {
           <p>Aparatos de fitness</p>
         </div>
         <div>
-          <strong>+60000</strong>
-          <p>Usuarios mensuales</p>
-        </div>
-        <div>
           <strong>+20</strong>
           <p>Años de experiencia</p>
         </div>
       </section>
 
       <section className="future-section" id="future-beneficios">
-        <small>Veni y ...</small>
         <h2>
           Senti la <span>Diferencia.</span>
         </h2>
@@ -153,7 +147,7 @@ const Future = () => {
         <div className="future-benefits-content">
           <small>VENTAJAS</small>
           <h2>
-            Conocé los beneficios de <span>Genesis</span>
+            Conocé los beneficios de entrenar en <span>Genesis</span>
           </h2>
 
           <div className="future-benefits-grid">
@@ -216,16 +210,15 @@ const Future = () => {
      
       <footer className="future-footer" id="future-contacto">
         <h2>
-          ¿Listo para llevar tu
+          ¿Listo para llevar tu 
           <br />
-          gimnasio al siguiente
+          cuerpo al siguiente
           <br />
           nivel?
         </h2>
 
         <p>
-          Empezá a transformar tu gimnasio con una plataforma
-          creada para vos y tus clientes.
+          Empezá a transformarte en tu mejor version.
         </p>
 
       <a
@@ -238,6 +231,7 @@ const Future = () => {
         </a>
 
         <hr />
+        
 
         <small>© 2026 Genesis. Todos los derechos reservados.</small>
       </footer>
