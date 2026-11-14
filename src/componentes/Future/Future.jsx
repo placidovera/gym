@@ -68,9 +68,10 @@ const Future = () => {
 
   <div className="future-hero-image">
     <img
-      src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=80"
-      alt="Entrenamiento en el gimnasio"
-    />
+        className="logo"
+        src="/genesis.jpg"
+        alt="Persona entrenando"
+      />
     <strong>Genesis</strong>
   </div>
 </section>
@@ -201,7 +202,7 @@ const Future = () => {
               <div></div>
             </div>
 <a
-  href="https://rutinas-react-gym.netlify.app/"
+  href="https://rutinas-genesis.netlify.app/"
   target="_blank"
   rel="noopener noreferrer"
   className="future-rutina-btn"
@@ -211,57 +212,6 @@ const Future = () => {
           </div>
         </div>
       </section>
-
-<div className="future-dashboard">
-  <aside>
-    <strong>Nivel</strong>
-    <span>Comenzá a entrenar</span>
-    <span>Seguí progresando</span>
-    <span>Superá tus límites</span>
-  </aside>
-
-  <div className="future-dashboard-main">
-    <h3>Elegí tu nivel de entrenamiento</h3>
-
-    <div className="future-dashboard-cards">
-      <a
-        href="https://rutinas-react-gym.netlify.app"
-        className="future-dashboard-routine"
-      >
-       
-        <strong>Principiantes</strong>
-       
-        <b>↗</b>
-      </a>
-
-      <a
-        href="https://rutinas-react-gym.netlify.app"
-        className="future-dashboard-routine"
-      >
-        <strong>Intermedios</strong>
-     
-        <b>↗</b>
-      </a>
-
-      <a
-        href="https://rutinas-react-gym.netlify.app"
-        className="future-dashboard-routine"
-      >
-        <strong>Avanzados</strong>
-     
-        <b>↗</b>
-      </a>
-    </div>
-  </div>
-</div>
-
-        <div className="future-billing">
-          <h3>Facturación</h3>
-          <p>
-            Controlá pagos, membresías y vencimientos de forma
-            sencilla y organizada.
-          </p>
-        </div>
      
       <footer className="future-footer" id="future-contacto">
         <h2>
